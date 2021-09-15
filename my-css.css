@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 60vw; */
+    align-items: center;
+}
+body{
+    background-color: rgb(189, 223, 223);
+}
+#check-btn{
+    width: 30%;
+    border-radius: 17px;
+    margin: 2rem;
+    height: 3.9vh;
+    
+}
+input{
+    width: 60%;
+    height: 5vh;
+    margin: 0.5rem;
+    border-radius: 12px;
+}
+
+table {
+   font-size: 3rem;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+h1{
+    font-size: 5rem;
+}
+input {
+   font-size: 1.8rem;
+}
