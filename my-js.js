@@ -6,7 +6,7 @@ const notesCount=document.querySelectorAll(".no-of-notes")
 
 
 availCurrency=[2000,500,100,20,10,5,1]
-checkBtn.addEventListener("click",function validateTotalBill(number){ console.log("clicked")
+checkBtn.addEventListener("click",function validateTotalBill(number){ 
     errorMsg.style.display="none";
     if(totalBill.value > 0 ){
         if(cashGiven.value > totalBill.value || cashGiven.value===totalBill.value){
